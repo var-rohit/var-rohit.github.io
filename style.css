@@ -1,5 +1,7 @@
+
 body {
     margin: 0px;
+    object-fit: fill;
     font-family: sans-serif;
     font-size: 30px;
 }
@@ -207,7 +209,7 @@ section:nth-child(2n + 1) {
     width: 15px;
     height: 15px;
     background-color: lightgrey;
-    top: 25%;
+    top: 50%;
     border-radius: 50%;
     z-index: 1;
 }
@@ -235,7 +237,7 @@ section:nth-child(2n + 1) {
 }
 
 .timeline-logo > img {
-    width: 100%;
+    width: 50%;
 }
 
 #timeline-divider {
@@ -244,7 +246,7 @@ section:nth-child(2n + 1) {
     top: 10%;
     left: 50%;
     border: 1px dashed #0096fa6b;
-    height: 66%;
+    height: 75%;
     color: #433E3F;
 }
 
